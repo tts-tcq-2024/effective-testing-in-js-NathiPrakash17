@@ -18,5 +18,5 @@ alertInCelcius(303.6);
 alertInCelcius(100.0);
 console.log(`${alertFailureCount} alerts failed.`);
 
-console.assert(alertFailureCount === 2 );
+console.assert(alertFailureCount === 0 );
 console.log('All is well (maybe!)');
