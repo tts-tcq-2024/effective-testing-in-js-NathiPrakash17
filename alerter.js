@@ -16,7 +16,7 @@ function alertInCelcius(farenheit) {
 alertInCelcius(400.5);
 alertInCelcius(303.6);
 alertInCelcius(100.0);
-if (alertFailureCount > 0) {
+if (alertFailureCount === 0) {
     throw new Error(`Expected at least 1 alert to fail, but got ${alertFailureCount}`);
 }
 
